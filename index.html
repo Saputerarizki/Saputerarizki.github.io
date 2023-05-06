@@ -1,96 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Rumah Cloud - Cloud Hosting Services</title>
-</head>
-<body>
-  <!-- Header section -->
-  <header>
-    <h1>RUMAH CLOUD</h1>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#pricing">Pricing</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <!-- Hero section -->
-  <section>
-    <h2>Cloud Hosting Services</h2>
-    <p>Get reliable, high-performance cloud hosting for your website or application.</p>
-    <button>Get Started</button>
-  </section>
-
-  <!-- Services section -->
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Managed Cloud Hosting</li>
-      <li>Virtual Private Servers</li>
-      <li>Cloud Storage</li>
-      <li>Domain Registration</li>
-      <li>SSL Certificates</li>
-    </ul>
-  </section>
-
-  <!-- Pricing section -->
-  <section id="pricing">
-    <h2>Pricing</h2>
-    <table>
-      <thead>
-        <tr>
-          <th>Plan</th>
-          <th>Price</th>
-          <th>Storage</th>
-          <th>Bandwidth</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Basic</td>
-          <td>$10/month</td>
-          <td>10GB</td>
-          <td>100GB</td>
-        </tr>
-        <tr>
-          <td>Pro</td>
-          <td>$20/month</td>
-          <td>20GB</td>
-          <td>200GB</td>
-        </tr>
-        <tr>
-          <td>Advanced</td>
-          <td>$30/month</td>
-          <td>30GB</td>
-          <td>300GB</td>
-        </tr>
-      </tbody>
-    </table>
-    <button>Start Free Trial</button>
-  </section>
-
-  <!-- Contact section -->
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form action="mailto:yourname@example.com" method="POST">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-      <button type="submit">Send</button>
-    </form>
-  </section>
-
-  <!-- Footer section -->
-  <footer>
-    <p>&copy; 2023 Rumah Cloud. All rights reserved.</p>
-  </footer>
-</body>
-</html>
+<form id="contact-form" method="post" action="send_email.php">
+    <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" name="name" required>
+    </div>
+    <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" class="form-control" id="email" name="email" required>
+    </div>
+    <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea class="form-control" id="message" name="message" required></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>
