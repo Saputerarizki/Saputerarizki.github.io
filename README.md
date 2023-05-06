@@ -1,125 +1,95 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <title>Startup Cloud Service | My Company Name</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-      /* Add CSS styles here */
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f7f7f7;
-      }
-      header {
-        background-color: #333;
-        color: #fff;
-        padding: 10px 20px;
-      }
-      h1 {
-        margin: 0;
-        font-size: 36px;
-        font-weight: normal;
-        text-align: center;
-      }
-      .container {
-        max-width: 1200px;
-        margin: 0 auto;
-        padding: 30px;
-      }
-      .hero {
-        background-image: url('https://example.com/hero-image.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-        height: 400px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        color: #fff;
-      }
-      .hero h2 {
-        font-size: 48px;
-        margin: 0;
-        font-weight: normal;
-      }
-      .cta {
-        background-color: #333;
-        color: #fff;
-        text-align: center;
-        padding: 40px 20px;
-      }
-      .cta h3 {
-        margin: 0;
-        font-size: 24px;
-        font-weight: normal;
-        margin-bottom: 20px;
-      }
-      .cta p {
-        margin: 0;
-        font-size: 16px;
-        margin-bottom: 30px;
-      }
-      .cta button {
-        background-color: #fff;
-        color: #333;
-        border: none;
-        border-radius: 5px;
-        font-size: 16px;
-        padding: 10px 20px;
-        cursor: pointer;
-      }
-      .features {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-wrap: wrap;
-        margin-top: 60px;
-      }
-      .feature {
-        flex-basis: 33%;
-        text-align: center;
-        padding: 20px;
-      }
-      .feature img {
-        width: 100px;
-        margin-bottom: 20px;
-      }
-      .feature h4 {
-        margin: 0;
-        font-size: 18px;
-        font-weight: normal;
-        margin-bottom: 10px;
-      }
-      .feature p {
-        margin: 0;
-        font-size: 14px;
-      }
-      .pricing {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        margin-top: 60px;
-      }
-      .plan {
-        text-align: center;
-        padding: 20px;
-        border: 2px solid #333;
-        border-radius: 5px;
-        margin: 0 20px;
-      }
-      .plan h3 {
-        margin: 0;
-        font-size: 24px;
-        font-weight: normal;
-        margin-bottom: 20px;
-      }
-      .plan p {
-        margin: 0;
-        font-size: 16px;
-        margin-bottom: 30px;
-      }
-      .plan ul {
-        margin: 0;
-        padding: 0;
-        list-style
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Cloud Hosting Landing Page</title>
+</head>
+<body>
+  <!-- Header section -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Trial</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero section -->
+  <section>
+    <h1>Reliable and Scalable Cloud Hosting Services</h1>
+    <p>Get lightning-fast cloud hosting with unlimited scalability and robust security features.</p>
+    <button>Get Started</button>
+  </section>
+
+  <!-- Features section -->
+  <section>
+    <h2>Our Features</h2>
+    <ul>
+      <li>
+        <img src="img/scalability.png" alt="Scalability Icon">
+        <h3>Scalability</h3>
+        <p>Our cloud hosting service allows you to scale up or down based on your business needs.</p>
+      </li>
+      <li>
+        <img src="img/reliability.png" alt="Reliability Icon">
+        <h3>Reliability</h3>
+        <p>Our servers are monitored 24/7 to ensure maximum uptime and reliable performance.</p>
+      </li>
+      <li>
+        <img src="img/security.png" alt="Security Icon">
+        <h3>Security</h3>
+        <p>Our cloud hosting service includes advanced security features to keep your data safe and secure.</p>
+      </li>
+    </ul>
+  </section>
+
+  <!-- Pricing section -->
+  <section>
+    <h2>Pricing</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Plan</th>
+          <th>Price</th>
+          <th>Storage</th>
+          <th>Bandwidth</th>
+          <th>Support</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Basic</td>
+          <td>$10/month</td>
+          <td>50 GB</td>
+          <td>100 GB</td>
+          <td>Email</td>
+        </tr>
+        <tr>
+          <td>Pro</td>
+          <td>$20/month</td>
+          <td>100 GB</td>
+          <td>200 GB</td>
+          <td>Email and Phone</td>
+        </tr>
+        <tr>
+          <td>Enterprise</td>
+          <td>Contact Us</td>
+          <td>Unlimited</td>
+          <td>Unlimited</td>
+          <td>Email, Phone, and Live Chat</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- Trial section -->
+  <section>
+    <h2>Start Your Free Trial</h2>
+    <form action="#" method="POST">
+      <label for="name">Name:</label>
+      <input type="text"
